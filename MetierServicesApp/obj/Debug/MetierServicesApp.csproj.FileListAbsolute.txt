@@ -1,0 +1,15 @@
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\MetierServicesApp\bin\MetierServicesApp.dll.config
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\MetierServicesApp\bin\MetierServicesApp.dll
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\MetierServicesApp\bin\MetierServicesApp.pdb
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\MetierServicesApp\obj\Debug\MetierServicesApp.csprojResolveAssemblyReference.cache
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\MetierServicesApp\obj\Debug\MetierServicesApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\MetierServicesApp\obj\Debug\MetierServicesApp.dll
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\MetierServicesApp\obj\Debug\MetierServicesApp.pdb
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\MetierServicesApp\bin\ClasseMetier.dll
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\MetierServicesApp\bin\ClassesDAO.dll
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\MetierServicesApp\bin\EntityFramework.dll
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\MetierServicesApp\bin\ClasseMetier.pdb
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\MetierServicesApp\bin\ClassesDAO.pdb
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\MetierServicesApp\bin\ClassesDAO.dll.config
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\MetierServicesApp\bin\EntityFramework.xml
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\MetierServicesApp\bin\fr\EntityFramework.resources.dll

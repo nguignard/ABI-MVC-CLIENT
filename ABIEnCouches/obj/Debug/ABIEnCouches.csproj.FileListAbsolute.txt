@@ -1,0 +1,90 @@
+C:\Users\DL-CDI\Documents\Visual Studio 2015\Projects\ABIEnCouches\ABIEnCouches\bin\Debug\ABIEnCouches.exe.config
+C:\Users\DL-CDI\Documents\Visual Studio 2015\Projects\ABIEnCouches\ABIEnCouches\bin\Debug\ABIEnCouches.exe
+C:\Users\DL-CDI\Documents\Visual Studio 2015\Projects\ABIEnCouches\ABIEnCouches\bin\Debug\ABIEnCouches.pdb
+C:\Users\DL-CDI\Documents\Visual Studio 2015\Projects\ABIEnCouches\ABIEnCouches\obj\Debug\ABIEnCouches.csprojResolveAssemblyReference.cache
+C:\Users\DL-CDI\Documents\Visual Studio 2015\Projects\ABIEnCouches\ABIEnCouches\obj\Debug\ABIEnCouches.Properties.Resources.resources
+C:\Users\DL-CDI\Documents\Visual Studio 2015\Projects\ABIEnCouches\ABIEnCouches\obj\Debug\ABIEnCouches.csproj.GenerateResource.Cache
+C:\Users\DL-CDI\Documents\Visual Studio 2015\Projects\ABIEnCouches\ABIEnCouches\obj\Debug\ABIEnCouches.exe
+C:\Users\DL-CDI\Documents\Visual Studio 2015\Projects\ABIEnCouches\ABIEnCouches\obj\Debug\ABIEnCouches.pdb
+C:\Users\DL-CDI\Documents\Visual Studio 2015\Projects\ABIEnCouches\ABIEnCouches\bin\Debug\ClasseMetier.dll
+C:\Users\DL-CDI\Documents\Visual Studio 2015\Projects\ABIEnCouches\ABIEnCouches\bin\Debug\ClasseMetier.pdb
+C:\Users\DL-CDI\Documents\Visual Studio 2015\Projects\ABIEnCouches\ABIEnCouches\obj\Debug\ABIEnCouches.frmListCollab.resources
+C:\Users\DL-CDI\Documents\Visual Studio 2015\Projects\ABIEnCouches\ABIEnCouches\obj\Debug\ABIEnCouches.frmMDI.resources
+C:\Users\DL-CDI\Documents\Visual Studio 2015\Projects\ABIEnCouches\ABIEnCouches\obj\Debug\ABIEnCouches.frmVisuCollaborateur.resources
+C:\Users\DL-CDI\Documents\Visual Studio 2015\Projects\ABIEnCouches\ABIEnCouches\obj\Debug\ABIEnCouches.frmAjouterCollab.resources
+C:\Users\DL-CDI\Documents\Visual Studio 2015\Projects\ABIEnCouches\ABIEnCouches\obj\Debug\ABIEnCouches.frmVisuContrat.resources
+C:\Users\DL-CDI\Documents\Visual Studio 2015\Projects\ABIEnCouches\ABIEnCouches\obj\Debug\ABIEnCouches.frmAjouterContrat.resources
+C:\Users\DL-CDI\Source\Repos\ABIEnCoucheTest2\ABIEnCouches\bin\Debug\ABIEnCouches.exe.config
+C:\Users\DL-CDI\Source\Repos\ABIEnCoucheTest2\ABIEnCouches\obj\Debug\ABIEnCouches.exe
+C:\Users\DL-CDI\Source\Repos\ABIEnCoucheTest2\ABIEnCouches\obj\Debug\ABIEnCouches.pdb
+C:\Users\DL-CDI\Source\Repos\ABIEnCoucheTest2\ABIEnCouches\bin\Debug\ABIEnCouches.exe
+C:\Users\DL-CDI\Source\Repos\ABIEnCoucheTest2\ABIEnCouches\bin\Debug\ABIEnCouches.pdb
+C:\Users\DL-CDI\Source\Repos\ABIEnCoucheTest2\ABIEnCouches\bin\Debug\ClasseMetier.dll
+C:\Users\DL-CDI\Source\Repos\ABIEnCoucheTest2\ABIEnCouches\bin\Debug\ClasseMetier.pdb
+C:\Users\DL-CDI\Source\Repos\ABIEnCoucheTest2\ABIEnCouches\obj\Debug\ABIEnCouches.csprojResolveAssemblyReference.cache
+C:\Users\DL-CDI\Source\Repos\ABIEnCoucheTest2\ABIEnCouches\obj\Debug\ABIEnCouches.frmAjouterCollab.resources
+C:\Users\DL-CDI\Source\Repos\ABIEnCoucheTest2\ABIEnCouches\obj\Debug\ABIEnCouches.frmAjouterContrat.resources
+C:\Users\DL-CDI\Source\Repos\ABIEnCoucheTest2\ABIEnCouches\obj\Debug\ABIEnCouches.frmListCollab.resources
+C:\Users\DL-CDI\Source\Repos\ABIEnCoucheTest2\ABIEnCouches\obj\Debug\ABIEnCouches.frmMDI.resources
+C:\Users\DL-CDI\Source\Repos\ABIEnCoucheTest2\ABIEnCouches\obj\Debug\ABIEnCouches.frmVisuCollaborateur.resources
+C:\Users\DL-CDI\Source\Repos\ABIEnCoucheTest2\ABIEnCouches\obj\Debug\ABIEnCouches.frmVisuContrat.resources
+C:\Users\DL-CDI\Source\Repos\ABIEnCoucheTest2\ABIEnCouches\obj\Debug\ABIEnCouches.Properties.Resources.resources
+C:\Users\DL-CDI\Source\Repos\ABIEnCoucheTest2\ABIEnCouches\obj\Debug\ABIEnCouches.csproj.GenerateResource.Cache
+C:\Users\DL-CDI\Source\Repos\ABIEnCoucheTest2\ABIEnCouches\obj\Debug\ABIEnCouches.frmModifierContrat.resources
+C:\Users\DL-CDI\Source\Repos\ABIEnCoucheTest2\ABIEnCouches\obj\Debug\ABIEnCouches.frmModifierCollaborateur.resources
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\bin\Debug\ABIEnCouches.exe.config
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\bin\Debug\ABIEnCouches.exe
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\bin\Debug\ABIEnCouches.pdb
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\bin\Debug\ClasseMetier.dll
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\bin\Debug\ClasseMetier.pdb
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\obj\Debug\ABIEnCouches.csprojResolveAssemblyReference.cache
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\obj\Debug\ABIEnCouches.frmAjouterCollab.resources
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\obj\Debug\ABIEnCouches.frmAjouterContrat.resources
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\obj\Debug\ABIEnCouches.frmListCollab.resources
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\obj\Debug\ABIEnCouches.frmMDI.resources
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\obj\Debug\ABIEnCouches.frmModifierCollaborateur.resources
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\obj\Debug\ABIEnCouches.frmModifierContrat.resources
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\obj\Debug\ABIEnCouches.frmVisuCollaborateur.resources
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\obj\Debug\ABIEnCouches.frmVisuContrat.resources
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\obj\Debug\ABIEnCouches.Properties.Resources.resources
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\obj\Debug\ABIEnCouches.csproj.GenerateResource.Cache
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\obj\Debug\ABIEnCouches.csproj.CoreCompileInputs.cache
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\obj\Debug\ABIEnCouches.exe
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\obj\Debug\ABIEnCouches.pdb
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\bin\Debug\ClassesDAO.dll
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\bin\Debug\EntityFramework.dll
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\bin\Debug\ClassesDAO.pdb
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\bin\Debug\ClassesDAO.dll.config
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\bin\Debug\EntityFramework.xml
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ABIEnCouches\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\bin\Debug\ABIEnCouches.exe.config
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\bin\Debug\ABIEnCouches.exe
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\bin\Debug\ABIEnCouches.pdb
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\bin\Debug\ClasseMetier.dll
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\bin\Debug\ClassesDAO.dll
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\bin\Debug\EntityFramework.dll
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\bin\Debug\ClasseMetier.pdb
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\bin\Debug\ClassesDAO.pdb
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\bin\Debug\ClassesDAO.dll.config
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\bin\Debug\EntityFramework.xml
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\obj\Debug\ABIEnCouches.csprojResolveAssemblyReference.cache
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\obj\Debug\ABIEnCouches.frmAjouterCollab.resources
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\obj\Debug\ABIEnCouches.frmAjouterContrat.resources
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\obj\Debug\ABIEnCouches.frmListCollab.resources
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\obj\Debug\ABIEnCouches.frmMDI.resources
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\obj\Debug\ABIEnCouches.frmModifierCollaborateur.resources
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\obj\Debug\ABIEnCouches.frmModifierContrat.resources
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\obj\Debug\ABIEnCouches.frmVisuCollaborateur.resources
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\obj\Debug\ABIEnCouches.frmVisuContrat.resources
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\obj\Debug\ABIEnCouches.Properties.Resources.resources
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\obj\Debug\ABIEnCouches.csproj.GenerateResource.Cache
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\obj\Debug\ABIEnCouches.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\obj\Debug\ABIEnCouches.exe
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ABIEnCouches\obj\Debug\ABIEnCouches.pdb

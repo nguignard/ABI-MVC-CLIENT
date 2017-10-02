@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ABIEnCouches.ctrlAjouterCollaborateur" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAgQABAAEAASAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>ctrlAjouterCollaborateur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABIEnCouches.ctrlListerCollaborateur" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAACAAAAAAAAAAAAABAAAAQAAAAgAAAA=</HashCode>
+      <FileName>ctrlListerCollaborateur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABIEnCouches.ctrlModifierCollaborateur" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAgQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ctrlModifierCollaborateur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABIEnCouches.ctrlVisuContrat" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>ctrlVisuContrat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABIEnCouches.ctrlVisuModifCollaborateur" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAgAAAAAAAAQAAAAAAAAAAAAAQAgAAQAAAAAAAAA=</HashCode>
+      <FileName>ctrlVisuModifCollaborateur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABIEnCouches.frmAjouterCollab" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hOBG0NCAECigUAEAAADAUECCiCQCAAQACAASAgCCAKQ=</HashCode>
+      <FileName>frmAjouterCollab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABIEnCouches.frmAjouterContrat" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAE0IAAECAgEAEAAACAEACCiCAAAAQACAASAACCAIQ=</HashCode>
+      <FileName>frmAjouterContrat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABIEnCouches.frmListCollab" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIhAAAAAACAAAgAAABCAAAACAQAAEAAAAAAAAAACAII=</HashCode>
+      <FileName>frmListCollab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABIEnCouches.frmMDI" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BJCgCv0AhCEAAgEICiC2wIdyjABBAcgBCmwARzAAQEc=</HashCode>
+      <FileName>frmMDI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABIEnCouches.frmModifierCollaborateur" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIBAgFCAASgBQAAAAACB0ACCAAQAAAQAAAAAAkAAAIA=</HashCode>
+      <FileName>frmModifierCollaborateur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABIEnCouches.frmModifierContrat" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAE0IAAECAgUgEAAACAEECCiCAAAEQACAASAACCAIQ=</HashCode>
+      <FileName>frmModifierContrat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABIEnCouches.frmVisuCollaborateur" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIFAwFCAACgAQAQAAACBQACCACQAAAAAAAMAAkAAAIA=</HashCode>
+      <FileName>frmVisuCollaborateur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABIEnCouches.frmVisuContrat" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKEE0oAAECAgUAAAAACAEACCiCAAAkAACQASAACCAIQ=</HashCode>
+      <FileName>frmVisuContrat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABIEnCouches.Outils" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Outils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABIEnCouches.Program" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABIEnCouches.Properties.Resources" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABIEnCouches.Properties.Settings" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABIEnCouches.Avenant" Collapsed="true">
+    <Position X="7.25" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ABIEnCouches.Cdd" Collapsed="true">
+    <Position X="7.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ABIEnCouches.Cdi" Collapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ABIEnCouches.Collaborateur" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ABIEnCouches.Collaborateurs" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ABIEnCouches.ContratTemporaire" Collapsed="true">
+    <Position X="10" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ABIEnCouches.ContratType" Collapsed="true">
+    <Position X="11.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ABIEnCouches.Donnees" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ABIEnCouches.HistoriqueAugmentation" Collapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ABIEnCouches.Stagiaire" Collapsed="true">
+    <Position X="13" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

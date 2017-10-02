@@ -1,0 +1,26 @@
+C:\Users\DL-CDI\Documents\Visual Studio 2015\Projects\ABIEnCouches\ClasseMetier\bin\Debug\ClasseMetier.dll
+C:\Users\DL-CDI\Documents\Visual Studio 2015\Projects\ABIEnCouches\ClasseMetier\bin\Debug\ClasseMetier.pdb
+C:\Users\DL-CDI\Documents\Visual Studio 2015\Projects\ABIEnCouches\ClasseMetier\obj\Debug\ClasseMetier.dll
+C:\Users\DL-CDI\Documents\Visual Studio 2015\Projects\ABIEnCouches\ClasseMetier\obj\Debug\ClasseMetier.pdb
+C:\Users\DL-CDI\Documents\Visual Studio 2015\Projects\ABIEnCouches\ClasseMetier\obj\Debug\ClasseMetier.csprojResolveAssemblyReference.cache
+C:\Users\DL-CDI\Source\Repos\ABIEnCoucheTest2\ClasseMetier\bin\Debug\ClasseMetier.dll
+C:\Users\DL-CDI\Source\Repos\ABIEnCoucheTest2\ClasseMetier\bin\Debug\ClasseMetier.pdb
+C:\Users\DL-CDI\Source\Repos\ABIEnCoucheTest2\ClasseMetier\obj\Debug\ClasseMetier.dll
+C:\Users\DL-CDI\Source\Repos\ABIEnCoucheTest2\ClasseMetier\obj\Debug\ClasseMetier.pdb
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ClasseMetier\bin\Debug\ClasseMetier.dll
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ClasseMetier\bin\Debug\ClasseMetier.pdb
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ClasseMetier\obj\Debug\ClasseMetier.csproj.CoreCompileInputs.cache
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ClasseMetier\obj\Debug\ClasseMetier.dll
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ClasseMetier\obj\Debug\ClasseMetier.pdb
+C:\Users\CDI14\Source\Repos\ABIEnCoucheTest\ClasseMetier\obj\Debug\ClasseMetier.csprojResolveAssemblyReference.cache
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ClasseMetier\bin\Debug\ClasseMetier.dll
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ClasseMetier\bin\Debug\ClasseMetier.pdb
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ClasseMetier\obj\Debug\ClasseMetier.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ClasseMetier\obj\Debug\ClasseMetier.dll
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ClasseMetier\obj\Debug\ClasseMetier.pdb
+C:\Users\Quentin\Source\Repos\ABIEnCoucheTest\ClasseMetier\bin\Debug\ClasseMetier.dll
+C:\Users\Quentin\Source\Repos\ABIEnCoucheTest\ClasseMetier\bin\Debug\ClasseMetier.pdb
+C:\Users\Quentin\Source\Repos\ABIEnCoucheTest\ClasseMetier\obj\Debug\ClasseMetier.csprojResolveAssemblyReference.cache
+C:\Users\Quentin\Source\Repos\ABIEnCoucheTest\ClasseMetier\obj\Debug\ClasseMetier.dll
+C:\Users\Quentin\Source\Repos\ABIEnCoucheTest\ClasseMetier\obj\Debug\ClasseMetier.pdb
+C:\Users\Administrateur\Source\Repos\ABIE-MVC-SOAP\ClasseMetier\obj\Debug\ClasseMetier.csprojResolveAssemblyReference.cache

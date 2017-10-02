@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Entreprise.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="EntrepriseStoreContainer">
+    <EntitySet Name="CollaborateursESet" EntityType="Entreprise.Store.CollaborateursESet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ContratTypeESet" EntityType="Entreprise.Store.ContratTypeESet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ContratTypeESet_CdiE" EntityType="Entreprise.Store.ContratTypeESet_CdiE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ContratTypeESet_ContratTemporaireE" EntityType="Entreprise.Store.ContratTypeESet_ContratTemporaireE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ContratTypeESet_CddE" EntityType="Entreprise.Store.ContratTypeESet_CddE" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ContratTypeESet_StageE" EntityType="Entreprise.Store.ContratTypeESet_StageE" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="CollaborateurEntityContratTypeE" Association="Entreprise.Store.CollaborateurEntityContratTypeE">
+      <End Role="CollaborateurEntity" EntitySet="CollaborateursESet" />
+      <End Role="ContratTypeE" EntitySet="ContratTypeESet" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CdiE_inherits_ContratTypeE" Association="Entreprise.Store.FK_CdiE_inherits_ContratTypeE">
+      <End Role="ContratTypeE" EntitySet="ContratTypeESet" />
+      <End Role="CdiE" EntitySet="ContratTypeESet_CdiE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ContratTemporaireE_inherits_ContratTypeE" Association="Entreprise.Store.FK_ContratTemporaireE_inherits_ContratTypeE">
+      <End Role="ContratTypeE" EntitySet="ContratTypeESet" />
+      <End Role="ContratTemporaireE" EntitySet="ContratTypeESet_ContratTemporaireE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CddE_inherits_ContratTemporaireE" Association="Entreprise.Store.FK_CddE_inherits_ContratTemporaireE">
+      <End Role="ContratTemporaireE" EntitySet="ContratTypeESet_ContratTemporaireE" />
+      <End Role="CddE" EntitySet="ContratTypeESet_CddE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StageE_inherits_ContratTemporaireE" Association="Entreprise.Store.FK_StageE_inherits_ContratTemporaireE">
+      <End Role="ContratTemporaireE" EntitySet="ContratTypeESet_ContratTemporaireE" />
+      <End Role="StageE" EntitySet="ContratTypeESet_StageE" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="CollaborateursESet">
+    <Key>
+      <PropertyRef Name="matriculeE" />
+    </Key>
+    <Property Name="matriculeE" Type="int" Nullable="false" />
+    <Property Name="civiliteE" Type="nchar" Nullable="false" MaxLength="1" />
+    <Property Name="nomE" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="prenomE" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="situationE" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="photoE" Type="nvarchar" Nullable="true" MaxLength="100" />
+    <Property Name="actifE" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ContratTypeESet">
+    <Key>
+      <PropertyRef Name="idContratE" />
+    </Key>
+    <Property Name="idContratE" Type="int" Nullable="false" />
+    <Property Name="dateDebutE" Type="datetime" Nullable="false" />
+    <Property Name="qualificationE" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="statutE" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="salaireE" Type="decimal" Nullable="false" />
+    <Property Name="finReelleE" Type="datetime" Nullable="true" />
+    <Property Name="CollaborateurEntity_matriculeE" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ContratTypeESet_CdiE">
+    <Key>
+      <PropertyRef Name="idContratE" />
+    </Key>
+    <Property Name="idContratE" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ContratTypeESet_ContratTemporaireE">
+    <Key>
+      <PropertyRef Name="idContratE" />
+    </Key>
+    <Property Name="dateFinE" Type="datetime" Nullable="false" />
+    <Property Name="motifE" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="idContratE" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ContratTypeESet_CddE">
+    <Key>
+      <PropertyRef Name="idContratE" />
+    </Key>
+    <Property Name="idContratE" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ContratTypeESet_StageE">
+    <Key>
+      <PropertyRef Name="idContratE" />
+    </Key>
+    <Property Name="ecoleE" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="missionE" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="idContratE" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="CollaborateurEntityContratTypeE">
+    <End Role="CollaborateurEntity" Type="Entreprise.Store.CollaborateursESet" Multiplicity="1" />
+    <End Role="ContratTypeE" Type="Entreprise.Store.ContratTypeESet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CollaborateurEntity">
+        <PropertyRef Name="matriculeE" />
+      </Principal>
+      <Dependent Role="ContratTypeE">
+        <PropertyRef Name="CollaborateurEntity_matriculeE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CdiE_inherits_ContratTypeE">
+    <End Role="ContratTypeE" Type="Entreprise.Store.ContratTypeESet" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="CdiE" Type="Entreprise.Store.ContratTypeESet_CdiE" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="ContratTypeE">
+        <PropertyRef Name="idContratE" />
+      </Principal>
+      <Dependent Role="CdiE">
+        <PropertyRef Name="idContratE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ContratTemporaireE_inherits_ContratTypeE">
+    <End Role="ContratTypeE" Type="Entreprise.Store.ContratTypeESet" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ContratTemporaireE" Type="Entreprise.Store.ContratTypeESet_ContratTemporaireE" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="ContratTypeE">
+        <PropertyRef Name="idContratE" />
+      </Principal>
+      <Dependent Role="ContratTemporaireE">
+        <PropertyRef Name="idContratE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CddE_inherits_ContratTemporaireE">
+    <End Role="ContratTemporaireE" Type="Entreprise.Store.ContratTypeESet_ContratTemporaireE" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="CddE" Type="Entreprise.Store.ContratTypeESet_CddE" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="ContratTemporaireE">
+        <PropertyRef Name="idContratE" />
+      </Principal>
+      <Dependent Role="CddE">
+        <PropertyRef Name="idContratE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StageE_inherits_ContratTemporaireE">
+    <End Role="ContratTemporaireE" Type="Entreprise.Store.ContratTypeESet_ContratTemporaireE" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="StageE" Type="Entreprise.Store.ContratTypeESet_StageE" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="ContratTemporaireE">
+        <PropertyRef Name="idContratE" />
+      </Principal>
+      <Dependent Role="StageE">
+        <PropertyRef Name="idContratE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Entreprise" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="EntrepriseContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CollaborateursESet" EntityType="Entreprise.CollaborateursE" />
+          <EntitySet Name="ContratTypeESet" EntityType="Entreprise.ContratTypeE" />
+          <AssociationSet Name="CollaborateurEntityContratTypeE" Association="Entreprise.CollaborateurEntityContratTypeE">
+            <End Role="CollaborateurEntity" EntitySet="CollaborateursESet" />
+            <End Role="ContratTypeE" EntitySet="ContratTypeESet" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="CollaborateursE" >
+          <Key>
+            <PropertyRef Name="matriculeE" />
+          </Key>
+          <Property Name="matriculeE" Type="Int32" Nullable="false" cg:GetterAccess="Internal" cg:SetterAccess="Internal" annotation:StoreGeneratedPattern="None" />
+          <Property Name="civiliteE" Type="String" Nullable="false" cg:GetterAccess="Internal" cg:SetterAccess="Internal" MaxLength="1" FixedLength="true" />
+          <Property Name="nomE" Type="String" Nullable="false" cg:GetterAccess="Internal" cg:SetterAccess="Internal" MaxLength="20" />
+          <Property Name="prenomE" Type="String" Nullable="false" cg:GetterAccess="Internal" cg:SetterAccess="Internal" MaxLength="20" />
+          <Property Name="situationE" Type="String" Nullable="false" cg:GetterAccess="Internal" cg:SetterAccess="Internal" MaxLength="20" />
+          <Property Name="photoE" Type="String" Nullable="true" cg:GetterAccess="Internal" cg:SetterAccess="Internal" MaxLength="100" />
+          <Property Name="actifE" Type="Boolean" Nullable="false" cg:GetterAccess="Internal" cg:SetterAccess="Internal" />
+          <NavigationProperty Name="ContratTypeE" Relationship="Entreprise.CollaborateurEntityContratTypeE" FromRole="CollaborateurEntity" ToRole="ContratTypeE" />
+        </EntityType>
+        <EntityType Name="CdiE" BaseType="Entreprise.ContratTypeE" >
+        </EntityType>
+        <EntityType Name="CddE" BaseType="Entreprise.ContratTemporaireE">
+        </EntityType>
+        <EntityType Name="StageE" BaseType="Entreprise.ContratTemporaireE" >
+          <Property Name="ecoleE" Type="String" Nullable="false" cg:GetterAccess="Internal" cg:SetterAccess="Internal" MaxLength="20" />
+          <Property Name="missionE" Type="String" Nullable="false" cg:GetterAccess="Internal" cg:SetterAccess="Internal" />
+        </EntityType>
+        <EntityType Name="ContratTypeE" >
+          <Key>
+            <PropertyRef Name="idContratE" />
+          </Key>
+          <NavigationProperty Name="CollaborateurEntity" Relationship="Entreprise.CollaborateurEntityContratTypeE" FromRole="ContratTypeE" ToRole="CollaborateurEntity" />
+          <Property Name="idContratE" Type="Int32" Nullable="false" cg:GetterAccess="Internal" cg:SetterAccess="Internal" annotation:StoreGeneratedPattern="None" />
+          <Property Name="dateDebutE" Type="DateTime" Nullable="false" cg:GetterAccess="Internal" cg:SetterAccess="Internal" />
+          <Property Name="qualificationE" Type="String" Nullable="false" cg:GetterAccess="Internal" cg:SetterAccess="Internal" MaxLength="20" />
+          <Property Name="statutE" Type="String" Nullable="false" cg:GetterAccess="Internal" cg:SetterAccess="Internal" MaxLength="20" />
+          <Property Name="salaireE" Type="Decimal" Nullable="false" cg:GetterAccess="Internal" cg:SetterAccess="Internal" />
+          <Property Name="finReelleE" Type="DateTime" cg:GetterAccess="Internal" cg:SetterAccess="Internal" Nullable="true" />
+        </EntityType>
+        <EntityType Name="ContratTemporaireE" BaseType="Entreprise.ContratTypeE">
+          <Property Name="dateFinE" Type="DateTime" Nullable="false" cg:GetterAccess="Internal" cg:SetterAccess="Internal" />
+          <Property Name="motifE" Type="String" Nullable="false" cg:GetterAccess="Internal" cg:SetterAccess="Internal" MaxLength="100" />
+        </EntityType>
+        <Association Name="CollaborateurEntityContratTypeE">
+          <End Type="Entreprise.CollaborateursE" Role="CollaborateurEntity" Multiplicity="1" />
+          <End Type="Entreprise.ContratTypeE" Role="ContratTypeE" Multiplicity="*" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EntrepriseStoreContainer" CdmEntityContainer="EntrepriseContainer">
+    <EntitySetMapping Name="CollaborateursESet">
+      <EntityTypeMapping TypeName="IsTypeOf(Entreprise.CollaborateursE)">
+        <MappingFragment StoreEntitySet="CollaborateursESet">
+          <ScalarProperty Name="matriculeE" ColumnName="matriculeE" />
+          <ScalarProperty Name="civiliteE" ColumnName="civiliteE" />
+          <ScalarProperty Name="nomE" ColumnName="nomE" />
+          <ScalarProperty Name="prenomE" ColumnName="prenomE" />
+          <ScalarProperty Name="situationE" ColumnName="situationE" />
+          <ScalarProperty Name="photoE" ColumnName="photoE" />
+          <ScalarProperty Name="actifE" ColumnName="actifE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContratTypeESet">
+      <EntityTypeMapping TypeName="IsTypeOf(Entreprise.ContratTypeE)">
+        <MappingFragment StoreEntitySet="ContratTypeESet">
+          <ScalarProperty Name="idContratE" ColumnName="idContratE" />
+          <ScalarProperty Name="dateDebutE" ColumnName="dateDebutE" />
+          <ScalarProperty Name="qualificationE" ColumnName="qualificationE" />
+          <ScalarProperty Name="statutE" ColumnName="statutE" />
+          <ScalarProperty Name="salaireE" ColumnName="salaireE" />
+          <ScalarProperty Name="finReelleE" ColumnName="finReelleE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(Entreprise.CdiE)">
+        <MappingFragment StoreEntitySet="ContratTypeESet_CdiE">
+          <ScalarProperty Name="idContratE" ColumnName="idContratE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(Entreprise.ContratTemporaireE)">
+        <MappingFragment StoreEntitySet="ContratTypeESet_ContratTemporaireE">
+          <ScalarProperty Name="idContratE" ColumnName="idContratE" />
+          <ScalarProperty Name="dateFinE" ColumnName="dateFinE" />
+          <ScalarProperty Name="motifE" ColumnName="motifE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(Entreprise.CddE)">
+        <MappingFragment StoreEntitySet="ContratTypeESet_CddE">
+          <ScalarProperty Name="idContratE" ColumnName="idContratE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(Entreprise.StageE)">
+        <MappingFragment StoreEntitySet="ContratTypeESet_StageE">
+          <ScalarProperty Name="idContratE" ColumnName="idContratE" />
+          <ScalarProperty Name="ecoleE" ColumnName="ecoleE" />
+          <ScalarProperty Name="missionE" ColumnName="missionE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="CollaborateurEntityContratTypeE" TypeName="Entreprise.CollaborateurEntityContratTypeE" StoreEntitySet="ContratTypeESet">
+      <EndProperty Name="CollaborateurEntity">
+        <ScalarProperty Name="matriculeE" ColumnName="CollaborateurEntity_matriculeE" />
+      </EndProperty>
+      <EndProperty Name="ContratTypeE">
+        <ScalarProperty Name="idContratE" ColumnName="idContratE" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Aucun" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
