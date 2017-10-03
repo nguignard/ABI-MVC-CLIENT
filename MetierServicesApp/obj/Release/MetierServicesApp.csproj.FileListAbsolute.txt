@@ -1,0 +1,15 @@
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\MetierServicesApp\bin\MetierServicesApp.dll.config
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\MetierServicesApp\bin\MetierServicesApp.dll
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\MetierServicesApp\bin\MetierServicesApp.pdb
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\MetierServicesApp\bin\ClasseMetier.dll
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\MetierServicesApp\bin\ClassesDAO.dll
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\MetierServicesApp\bin\EntityFramework.dll
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\MetierServicesApp\bin\ClasseMetier.pdb
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\MetierServicesApp\bin\ClassesDAO.pdb
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\MetierServicesApp\bin\ClassesDAO.dll.config
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\MetierServicesApp\bin\EntityFramework.xml
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\MetierServicesApp\bin\fr\EntityFramework.resources.dll
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\MetierServicesApp\obj\Release\MetierServicesApp.csprojResolveAssemblyReference.cache
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\MetierServicesApp\obj\Release\MetierServicesApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\MetierServicesApp\obj\Release\MetierServicesApp.dll
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\MetierServicesApp\obj\Release\MetierServicesApp.pdb

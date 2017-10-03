@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClassesDAO.CddE" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CddE.addOn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassesDAO.CdiE" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cdi.addOn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassesDAO.CollaborateursE" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAgEAIAAAAAIAAABAAAAgAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CollaborateursE.addOn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassesDAO.ContratTemporaireE" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContratTemporaireE.addOn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassesDAO.ContratTypeE" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAQCACAAAAAAAAAAAAABAQAAAA=</HashCode>
+      <FileName>ContratTypeE.addOn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassesDAO.Dao" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Dao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassesDAO.DonneesDao" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DonneesDao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassesDAO.EntrepriseContainer" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAIAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entreprise.Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClassesDAO.StageE" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>StageE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,15 @@
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\ClassesDAO\bin\Release\ClassesDAO.dll.config
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\ClassesDAO\bin\Release\ClassesDAO.dll
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\ClassesDAO\bin\Release\ClassesDAO.pdb
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\ClassesDAO\bin\Release\ClasseMetier.dll
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\ClassesDAO\bin\Release\EntityFramework.dll
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\ClassesDAO\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\ClassesDAO\bin\Release\ClasseMetier.pdb
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\ClassesDAO\bin\Release\EntityFramework.xml
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\ClassesDAO\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\ClassesDAO\bin\Release\fr\EntityFramework.resources.dll
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\ClassesDAO\bin\Release\fr\EntityFramework.SqlServer.resources.dll
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\ClassesDAO\obj\Release\ClassesDAO.csprojResolveAssemblyReference.cache
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\ClassesDAO\obj\Release\ClassesDAO.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\ClassesDAO\obj\Release\ClassesDAO.dll
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\ClassesDAO\obj\Release\ClassesDAO.pdb

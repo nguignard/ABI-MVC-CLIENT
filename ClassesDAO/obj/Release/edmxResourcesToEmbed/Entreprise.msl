@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EntrepriseStoreContainer" CdmEntityContainer="EntrepriseContainer">
+    <EntitySetMapping Name="CollaborateursESet">
+      <EntityTypeMapping TypeName="IsTypeOf(Entreprise.CollaborateursE)">
+        <MappingFragment StoreEntitySet="CollaborateursESet">
+          <ScalarProperty Name="matriculeE" ColumnName="matriculeE" />
+          <ScalarProperty Name="civiliteE" ColumnName="civiliteE" />
+          <ScalarProperty Name="nomE" ColumnName="nomE" />
+          <ScalarProperty Name="prenomE" ColumnName="prenomE" />
+          <ScalarProperty Name="situationE" ColumnName="situationE" />
+          <ScalarProperty Name="photoE" ColumnName="photoE" />
+          <ScalarProperty Name="actifE" ColumnName="actifE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContratTypeESet">
+      <EntityTypeMapping TypeName="IsTypeOf(Entreprise.ContratTypeE)">
+        <MappingFragment StoreEntitySet="ContratTypeESet">
+          <ScalarProperty Name="idContratE" ColumnName="idContratE" />
+          <ScalarProperty Name="dateDebutE" ColumnName="dateDebutE" />
+          <ScalarProperty Name="qualificationE" ColumnName="qualificationE" />
+          <ScalarProperty Name="statutE" ColumnName="statutE" />
+          <ScalarProperty Name="salaireE" ColumnName="salaireE" />
+          <ScalarProperty Name="finReelleE" ColumnName="finReelleE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(Entreprise.CdiE)">
+        <MappingFragment StoreEntitySet="ContratTypeESet_CdiE">
+          <ScalarProperty Name="idContratE" ColumnName="idContratE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(Entreprise.ContratTemporaireE)">
+        <MappingFragment StoreEntitySet="ContratTypeESet_ContratTemporaireE">
+          <ScalarProperty Name="idContratE" ColumnName="idContratE" />
+          <ScalarProperty Name="dateFinE" ColumnName="dateFinE" />
+          <ScalarProperty Name="motifE" ColumnName="motifE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(Entreprise.CddE)">
+        <MappingFragment StoreEntitySet="ContratTypeESet_CddE">
+          <ScalarProperty Name="idContratE" ColumnName="idContratE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(Entreprise.StageE)">
+        <MappingFragment StoreEntitySet="ContratTypeESet_StageE">
+          <ScalarProperty Name="idContratE" ColumnName="idContratE" />
+          <ScalarProperty Name="ecoleE" ColumnName="ecoleE" />
+          <ScalarProperty Name="missionE" ColumnName="missionE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="CollaborateurEntityContratTypeE" TypeName="Entreprise.CollaborateurEntityContratTypeE" StoreEntitySet="ContratTypeESet">
+      <EndProperty Name="CollaborateurEntity">
+        <ScalarProperty Name="matriculeE" ColumnName="CollaborateurEntity_matriculeE" />
+      </EndProperty>
+      <EndProperty Name="ContratTypeE">
+        <ScalarProperty Name="idContratE" ColumnName="idContratE" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

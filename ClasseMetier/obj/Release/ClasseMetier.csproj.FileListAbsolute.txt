@@ -1,0 +1,5 @@
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\ClasseMetier\bin\Release\ClasseMetier.dll
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\ClasseMetier\bin\Release\ClasseMetier.pdb
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\ClasseMetier\obj\Release\ClasseMetier.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\ClasseMetier\obj\Release\ClasseMetier.dll
+C:\Users\Administrateur\source\repos\ABI-MVC-CLIENT\ClasseMetier\obj\Release\ClasseMetier.pdb
